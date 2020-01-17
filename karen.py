@@ -12,7 +12,7 @@ colorama.init(autoreset=True) # Reset colours
 
 def main():
     os.system('cls')
-    zyxel = Zyxel()
+    zyxel = Zyxel() # why dfuck i should create this
     info = Info()
     kukold = zyxel.scramble_decode('0yxEdDYcrlZtQZzLOy+VxFQf')
     print(BANNER_COLOUR + KAREN_BANER)
