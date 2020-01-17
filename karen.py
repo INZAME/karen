@@ -8,11 +8,10 @@ import os
 import colorama
 import sys
 
-colorama.init(autoreset=True) # Reset colours
 
 def main():
     os.system('cls')
-    zyxel = Zyxel() # why dfuck i should create this
+    zyxel = Zyxel()
     info = Info()
     try:
         kukold = zyxel.scramble_decode('0yxEdDYcrlZtQZzLOy+VxFQf')
