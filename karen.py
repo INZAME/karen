@@ -14,7 +14,10 @@ def main():
     os.system('cls')
     zyxel = Zyxel() # why dfuck i should create this
     info = Info()
-    kukold = zyxel.scramble_decode('0yxEdDYcrlZtQZzLOy+VxFQf')
+    try:
+        kukold = zyxel.scramble_decode('0yxEdDYcrlZtQZzLOy+VxFQf')
+    except Exception:
+        print(FAILED_COLOUR + "[!] Error decoding password")
     print(BANNER_COLOUR + KAREN_BANER)
     if len(info.Values()) > 2:
         info.Print()
