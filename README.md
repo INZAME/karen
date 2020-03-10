@@ -4,15 +4,8 @@ For now Zyxel passwords reminder
 
 Currently in dev
 
-## Getting Started
+## To Do
 
-Download via git clone or regular download
+* Telnet stream
 
-### How to
-
-Just run karen.py and folow screen instructions
-
-```
-1. Connect to your router
-2. View device info
-```
+* Config parser 
