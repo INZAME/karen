@@ -1,5 +1,5 @@
 # Karen
-![](https://www.codefactor.io/repository/github/inzame/karen)
+![](https://www.codefactor.io/repository/github/inzame/karen/badgen)
 
 For now Zyxel passwords reminder
 
