@@ -2,6 +2,8 @@
 
 import textwrap
 import colorama
+from sys import version
+from os import system
 
 colorama.init(autoreset=True) # Reset colours
 
@@ -40,3 +42,9 @@ def ISP_INFO(login, password):
     GAP_28()
     print('| {:<10} {:<15} |\n| {:<10} {:<15} |'.format('Login: ', login, 'Password: ', password))
     GAP_28()
+
+def clear():
+    if version == 'nt':
+        system('cls')
+    else:
+        system('clear') 
